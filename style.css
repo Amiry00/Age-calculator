@@ -1,0 +1,70 @@
+.container {
+    height: 400px;
+    width : 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.container input[type="date"] {
+    min-width: 300px;
+    margin-right:10px;
+    box-shadow: 0px 2px 6px grey;
+}
+
+.result-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.result-unit {
+    text-align: center;
+}
+
+.result-number {
+    font-size: 24px;
+}
+
+.result-label {
+    font-size: 14px;
+    color: #777;
+}
+.temp {
+    text-shadow: 2px 2px 4px grey;
+}
+.hello {
+    text-align:center;
+    height:80px;
+    width:80px;
+    background-color: cyan;
+    overflow:hidden;
+    padding: 10px;
+    border-radius: 50%;
+}
+@keyframes cakeAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.birthday-cake {
+    width: 100px;
+    height:100px;
+    animation: cakeAnimation 1s infinite;
+    border-radius:50%;
+}
