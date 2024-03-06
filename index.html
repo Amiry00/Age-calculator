@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">        
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto flex justify-center items-center h-screen">
+    <div class="max-w-md bg-white shadow-md rounded-lg">
+        <div class="p-6">
+            <h1 class="temp text-3xl font-bold text-gray-800 mb-6 text-center">Age Calculator</h1>
+            <div class="flex items-center mb-6">
+                <input type="date" id="date" class="w-3/4 bg-gray-200 text-gray-700 border rounded py-2 px-3 focus:outline-none focus:bg-white mr-2">
+                <button id="calculateButton" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded w-1/4">Calculate</button>
+            </div>
+            <div id="result" class="text-center text-gray-800 font-bold text-xl"></div>
+        </div>
+    </div>
+</div>
+<script src="function.js"></script>
+    
+
+</body>
+</html>
